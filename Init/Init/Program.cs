@@ -36,11 +36,11 @@ class Program
         }
 
         int maxValue = array[0];
-        for (int i = 1; i < array.Length; i++)
+        for (int j = 1; j < array.Length; j++)
         {
-            if (array[i] > maxValue)
+            if (array[j] > maxValue)
             {
-                maxValue = array[i];
+                maxValue = array[j];
             }
         }
         return maxValue;
